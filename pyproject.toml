@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "estudos de inteligencia artificial"
+version = "0.0.1"
+description = "Todos os meus testes, anotacoes e scripts sobre inteligencia articial."
+authors = ["João V. Sanches <joaovictorsanchesandradeestuda@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
