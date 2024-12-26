@@ -22,8 +22,8 @@ Explorar e dominar os fundamentos e aplicações práticas da Inteligência Arti
 ### **2. Ciência da Computação**  
 - **Estruturas de Dados e Algoritmos:** Eficiência no processamento e manipulação de dados.  
 - **Programação:** Python (TensorFlow, PyTorch) e C++ para otimizações.  
-- **Sistemas Distribuídos:** Treinamento em clusters e infraestrutura escalável.  
-- **Computação de Alto Desempenho:** Uso eficiente de GPUs e TPUs.  
+- **Sistemas Distribuídos:** Treinamento em clusters e infraestrutura escalável.  (Não será prioridade)
+- **Computação de Alto Desempenho:** Uso eficiente de GPUs e TPUs. 
 
 ### **3. Aprendizado de Máquina (Machine Learning)**  
 - **Supervisionado, Não Supervisionado e Reforço:** Diferentes paradigmas de aprendizado.  
@@ -71,63 +71,60 @@ Explorar e dominar os fundamentos e aplicações práticas da Inteligência Arti
 ## Roteiro de Estudos  
 
 ### **Etapa 1: Fundamentos Matemáticos**  
-1. **Álgebra Linear:** Vetores, matrizes, transformações lineares.  
-   - Livro: *Linear Algebra and Its Applications* (David C. Lay).  
-   - Curso: *Linear Algebra* (Khan Academy).  
-2. **Cálculo:** Gradientes e otimização.  
-   - Livro: *Calculus: Early Transcendentals* (James Stewart).  
-   - Curso: *Mathematics for Machine Learning* (Coursera).  
-3. **Probabilidade e Estatística:** Inferência estatística e distribuições.  
-   - Livro: *Introduction to Probability* (Dimitri P. Bertsekas).  
-   - Curso: *Statistical Thinking for Data Science and Analytics* (EdX).  
+1. **Álgebra Linear:**  
+   - Estude **vetores**, **matrizes** e **transformações lineares**, focando em como esses conceitos são aplicados em IA, especialmente em redes neurais e aprendizado de máquina.  
 
+2. **Cálculo:**  
+   - Aprofunde-se em **gradientes** e **otimização**, com ênfase em como esses conceitos são usados no treinamento de modelos de aprendizado de máquina, como no algoritmo de gradiente descendente.  
+
+3. **Probabilidade e Estatística:**  
+   - Estude **inferência estatística**, **distribuições** e conceitos-chave de **probabilidade**, pois são fundamentais para a análise de dados e construção de modelos preditivos.
 ---
 
 ### **Etapa 2: Programação e Computação**  
-1. **Linguagem de Programação:** Domine Python (NumPy, Pandas) e introdução ao C++.  
-   - Curso: *Python for Everybody* (Coursera).  
-   - Tutorial: *Learn C++* (Codecademy).  
-2. **Estruturas de Dados e Algoritmos:** Árvores, grafos, ordenações.  
-   - Livro: *Introduction to Algorithms* (Cormen et al.).  
+1. **Linguagem de Programação:**  
+   - Se você ainda não domina Python, recomendo começar pelo canal **Curso em Vídeo**, que oferece uma abordagem prática e didática para iniciantes.  
+   - Caso já tenha conhecimento em Python, aprofunde-se em bibliotecas como **NumPy**, **Pandas** e **Matplotlib**, fundamentais para manipulação de dados e visualização.  
+   - Explore também uma introdução ao **C++**, especialmente se pretende trabalhar com otimizações e desempenho em projetos avançados de IA.  
+2. **Estruturas de Dados e Algoritmos:**  
+   - Estude e implemente estruturas de dados fundamentais como **árvores**, **grafos** e **algoritmos de ordenação**. Pratique a resolução de problemas usando essas estruturas para melhorar sua compreensão e habilidade em otimizar algoritmos.  
+
 
 ---
 
 ### **Etapa 3: Fundamentos de IA**  
-1. **Conceitos Fundamentais:** Supervisionado, não supervisionado e reforço.  
-   - Curso: *Machine Learning* (Andrew Ng - Coursera).  
-2. **Redes Neurais:** Perceptron, feedforward, retropropagação.  
-   - Livro: *Deep Learning* (Ian Goodfellow).  
-
+1. **Conceitos Fundamentais:**  
+   - Explore os principais paradigmas do aprendizado de máquina: **supervisionado**, **não supervisionado** e **por reforço**.  
+   - Ainda estou em busca de conteúdos de alta qualidade para aprofundar esta etapa, mas vou adicionar recomendações em breve.  
+2. **Redes Neurais:**  
+   - Estude os principais tipos de redes neurais, como o **Perceptron**, as redes **feedforward** e o algoritmo de **retropropagação**. Pratique a implementação dessas redes e compreenda como elas são aplicadas em problemas de classificação e regressão.
 ---
 
 ### **Etapa 4: Aprendizado de Máquina Avançado**  
-1. **Transformers:** Base de modelos como GPT e LLaMA.  
-   - Blog: *The Illustrated Transformer* (Jay Alammar).  
-2. **Técnicas de Otimização:** Adam, SGD, dropout.  
-   - Livro: *Pattern Recognition and Machine Learning* (Christopher M. Bishop).  
-
+1. **Transformers:**  
+   - Estude a arquitetura **Transformer**, que serve de base para modelos como **GPT** e **LLaMA**. Compreenda o mecanismo de atenção e como ele permite o processamento eficiente de sequências.  
+2. **Técnicas de Otimização:**  
+   - Aprofunde-se nas técnicas de otimização como **Adam**, **SGD** e **dropout**, e como elas impactam o desempenho e a generalização de modelos de aprendizado de máquina. Pratique a implementação dessas técnicas em projetos reais.
 ---
 
 ### **Etapa 5: Processamento de Linguagem Natural (NLP)**  
-1. **Fundamentos de NLP:** Tokenização, embeddings.  
-   - Curso: *Natural Language Processing Specialization* (Coursera).  
-2. **Modelos de Linguagem Grandes (LLMs):** LLaMA, GPT, BERT.  
-   - Repositório: *Hugging Face Transformers*.  
-
+1. **Fundamentos de NLP:**  
+   - Estude conceitos fundamentais como **tokenização** e **embeddings**, essenciais para processar e representar texto em modelos de aprendizado de máquina. Aprofunde-se na implementação desses conceitos em tarefas como análise de sentimentos e tradução automática.  
+   - Explore materiais práticos, como tutoriais e repositórios de código aberto no **GitHub**, além de examinar a documentação de bibliotecas como **spaCy** e **NLTK** para entender a aplicação desses conceitos no mundo real.
+2. **Modelos de Linguagem Grandes (LLMs):**  
+   - Estude modelos avançados como **LLaMA**, **GPT** e **BERT**, focando nas diferenças e aplicações de cada um. Pratique implementando esses modelos em diferentes tarefas de NLP e explore frameworks como **Hugging Face Transformers** para utilização e fine-tuning.
 ---
 
 ### **Etapa 6: Práticas Avançadas**  
-1. **Treinamento Distribuído:** Paralelismo de dados e modelo.  
-   - Tutorial: *Distributed Training with PyTorch*.  
-2. **Compressão de Modelos:** Quantização e poda.  
-   - Documentação: TensorFlow Model Optimization Toolkit.  
-
+1. **Treinamento Distribuído:**  
+   - Estude as técnicas de **paralelismo de dados** e **paralelismo de modelo** para acelerar o treinamento de modelos em grandes conjuntos de dados. Pratique distribuindo o treinamento entre múltiplas GPUs ou máquinas para otimizar o tempo de processamento.  
+2. **Compressão de Modelos:**  
+   - Aprofunde-se em técnicas de **quantização** e **poda** para reduzir o tamanho e melhorar a eficiência de modelos, tornando-os mais rápidos e adequados para implantação em dispositivos com recursos limitados, como smartphones e IoT.
 ---
 
 ### **Etapa 7: Projeto Prático**  
 1. **Escolha um Caso de Uso:** Chatbot, análise de sentimentos, detecção de objetos.  
 2. **Desenvolvimento:** Reúna dados, treine e avalie o modelo.  
-
 ---
 
 Este repositório será continuamente atualizado com novos materiais, insights e aplicações práticas.  
